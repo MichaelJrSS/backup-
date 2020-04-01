@@ -1,0 +1,174 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 31/08/2018, 19:34:08
+    Author     : Michael Jr
+*/
+
+body{
+    background-color: #006;
+}
+
+section{
+    background-color: #FFF;
+}
+.container{
+    background-color: #006;
+    max-width: 100%;
+    padding-right:20%;
+    padding-left:20%;
+}
+.container img{
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.banner img{
+    width: 100%;
+}
+.menu{
+    background-color: #C50;
+    text-align: center;
+
+}
+.menu a{
+    color: #000;
+    font-weight: bold;
+    padding: 15px 30px;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+/*:hover ao passar o mouse por cima ele faz uma acao*/
+.menu a:hover{
+    color: #C50;
+    background-color: #333;
+    text-decoration: none;
+}
+
+.rodape{
+    background-color: #333;
+    color: #FFF;
+    padding:  50px 0;
+    text-align: center;
+
+}
+
+.texto{
+    width: 75%;
+    padding: 40px;
+    text-align: justify;
+}
+
+.principal{
+    display: flex;
+
+}
+
+.propaganda{
+    width: 25%;
+    background-color: #CCC;
+    text-align: center;
+
+}
+.propaganda img{
+    width: 90%;
+}
+.cabecalho img{
+
+    max-width: 100%;
+    height: auto;
+}
+
+.texto img{
+    width: 50%;
+    float: left;
+    margin-top: 8px;
+    margin-right: 15px;
+
+}
+/*RESOLUCAO PARA CELULARES*/
+@media screen and (max-width: 400px){
+    .container{
+        max-width: 100%;
+        padding-right:0;
+        padding-left:0;
+    }
+    .container img{
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+    .propaganda{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px){
+    .container{
+        max-width: 100%;
+        padding-right:0;
+        padding-left:0;
+    }
+    .container img{
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+    .propaganda{
+        display: none;
+    }
+}
+
+@media screen and (max-width:940px){
+    .container{
+        max-width: 100%;
+        padding-right:0;
+        padding-left:0;
+    }
+    .container img{
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+    .banner{
+        display: none;
+
+    }
+
+    /*.menu{
+       display: none;
+
+   }
+
+    .menu_mobile a{
+        color:#FFF;
+
+    }
+    .menu_mobile a:hover{
+        text-decoration: none;
+    }
+
+
+ .texto{
+     width: 100%;
+     padding: 10px;
+     text-align: justify;
+ }
+ .texto img{
+     width: 99%;
+     float: none;
+ }
+ .lista{
+     list-style-type: none;
+     display: none;
+ }*/
+
+}

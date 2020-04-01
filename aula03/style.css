@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29/08/2018, 20:28:23
+    Author     : Michael Jr
+*/
+
+ body{
+                height: 100%;
+            }
+            h1{
+                text-align: center;
+                color: #dc1478;
+                font-family: arial;
+                font-weight: bold;
+                font-style: italic;
+            } 
+
+            .menuItem{
+                list-style-type: none;
+            }
+
+            a{
+                text-decoration: none;
+                color: black;
+            }
+
+            #corpo{
+                border-width: 2px 5px 3px 6px; /* aqui, cada lado possui uma borda de largura diferente */
+                border-style: dashed dotted; /* estilos de borda diferentes para cima-baixo e esquerda-direita */
+                border-color: #000 #090 #900 #009; /* uma cor de borda para cada lado */
+                position: relative;
+                float: right;
+                width: 50%;
+            }
+            nav{
+                border-width: 2px 5px 3px 6px; /* aqui, cada lado possui uma borda de largura diferente */
+                border-style: dashed dotted; /* estilos de borda diferentes para cima-baixo e esquerda-direita */
+                border-color: #000 #090 #900 #009; /* uma cor de borda para cada lado */
+                width: 18%;
+                float: left;
+                position: relative;
+                height: 50%;                
+            }
+
+            p, h2{
+                text-align: center;
+                font-weight: bold;
+            }
+
+            #aside1{
+                border-width: 2px 5px 3px 6px; /* aqui, cada lado possui uma borda de largura diferente */
+                border-style: dashed dotted; /* estilos de borda diferentes para cima-baixo e esquerda-direita */
+                border-color: #000 #090 #900 #009; /* uma cor de borda para cada lado */
+                position: relative;
+                float: bottom;
+                width: 18%;                
+            }
+
+            #imgKoala{
+                width: 60%;
+                height: 30%;
+                margin-left: 19%;
+                margin-right: 19%;
+
+            }
+
+
+            footer{
+                border-width: 2px 5px 3px 6px; /* aqui, cada lado possui uma borda de largura diferente */
+                border-style: dashed dotted; /* estilos de borda diferentes para cima-baixo e esquerda-direita */
+                border-color: #000 #090 #900 #009; /* uma cor de borda para cada lado */
+                padding: 20px;
+                bottom: 0;
+                position: absolute;
+                width: 96%;
+                height: 30px;               
+
+            }
+            
+            aside{
+                border-width: 2px 5px 3px 6px; /* aqui, cada lado possui uma borda de largura diferente */
+                border-style: dashed dotted; /* estilos de borda diferentes para cima-baixo e esquerda-direita */
+                border-color: #000 #090 #900 #009; /* uma cor de borda para cada lado */
+                width: 20%;
+                position: relative;
+                float: right;
+                
+            }
